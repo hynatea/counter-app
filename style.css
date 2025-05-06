@@ -8,6 +8,10 @@ html {
     font-size: 16px;
     height: 100%;
 }
+
+.favicon {
+    border-radius: 50%;
+}
   
 body {
     background: #FFDFDB;
@@ -16,7 +20,7 @@ body {
     align-items: stretch;
     flex-direction: column;
     text-align: center;
-    height: 100vh;
+    height: 100vh
 }
 
 /* Title styles */
@@ -106,30 +110,30 @@ footer {
 }
 
 @media (min-width: 1024px) {
-  body {
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    body {
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+  
+    h1 {
+      font-size: 3.5em;
+    }
+  
+    #count-el {
+      font-size: 3em;
+    }
+  
+    button {
+      font-size: 1.5em;
+      padding: 1em auto ;
+  
+    #saved-counts {
+      font-size: 1.2em;
+    }
+  
+    footer {
+      font-size: 1.5em;
+    }
   }
-
-  h1 {
-    font-size: 3.5em;
   }
-
-  #count-el {
-    font-size: 3em;
-  }
-
-  button {
-    font-size: 1.5em;
-    padding: 1em auto ;
-
-  #saved-counts {
-    font-size: 1.2em;
-  }
-
-  footer {
-    font-size: 1.5em;
-  }
-}
-}
