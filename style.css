@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    height: 100%;
+}
+  
+body {
+    background: #FFDFDB;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+}
+
+/* Title styles */
+
+h1 {
+    margin-bottom: 1em;
+    color: #CE6A6B;
+    font-size: 2.5em;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Buttons styles */
+
+button {
+    color : #f5efe6;
+    border: none;
+    padding: 1em 2em;
+    cursor: pointer;
+    border-radius: 0.5em;
+    margin: 1em;
+    font-size: 1.2em;
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button:focus {
+    outline: none;
+}
+button:active {
+    transform: scale(0.95);
+}
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+/* Button colors */
+
+#increment-btn {
+    background: #EBACA2;
+}
+
+#decrement-btn {
+    background: #EBACA2;
+}
+
+#reset-btn {
+    background: #FBBFB8;
+}
+
+#save-btn {
+    background: #CE6A6B;
+}
+
+/* Counter styles */
+
+#count-el {
+    font-size: 2em;
+    color: #955149;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Saved styles (text) */
+
+#saved-counts {
+    font-size: 1em;
+    color: #955149;
+    font-family: "Delius", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* Footer styles */
+
+footer {
+    margin-top: 2em;
+    font-size: 1.2em;
+    color: #CE6A6B;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (min-width: 1024px) {
+  body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  h1 {
+    font-size: 3.5em;
+  }
+
+  #count-el {
+    font-size: 3em;
+  }
+
+  button {
+    font-size: 1.5em;
+    padding: 1em auto ;
+
+  #saved-counts {
+    font-size: 1.2em;
+  }
+
+  footer {
+    font-size: 1.5em;
+  }
+}
+}
